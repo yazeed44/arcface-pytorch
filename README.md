@@ -4,7 +4,7 @@ This is my own implementation for Arcface to be used for deep face recognition, 
 
 ## Setting up environment
 ```shell
-conda create --name arcface_pytorch --file requirements.txt
+conda create --name arcface_pytorch --file environment.yml
 ```
 
 ### Setting up training dataset
@@ -46,7 +46,7 @@ datasets
 - Once training is done, you will see the model in `models` directory
 
 ## References
-[ArcFace: Additive Angular Margin Loss for Deep Face Recognition ](https://arxiv.org/pdf/1801.07698v3.pdf)
+[ArcFace: Additive Angular Margin Loss for Deep Face Recognition ](https://arxiv.org/pdf/1801.07698v3.pdf)  
 [A Discriminative Feature Learning Approachfor Deep Face Recognition](https://ydwen.github.io/papers/WenECCV16.pdf)  
 [Ring loss: Convex Feature Normalization for Face Recognition](https://arxiv.org/pdf/1803.00130.pdf)  
 [InsightFace_Pytorch](https://github.com/TreB1eN/InsightFace_Pytorch)  
